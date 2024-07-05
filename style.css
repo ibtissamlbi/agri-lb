@@ -1,0 +1,89 @@
+
+header{
+	height: 100px;
+	width: 100%;
+	display: k;
+	padding: auto;
+	/*background-color: #07a007;*/
+}
+#logo{
+	width: 50px;
+	height: 50px;
+	margin-left: 95%;
+}
+small{
+	position: absolute;
+	color: rgb(147, 107, 47);
+	font-size: small;
+	font-family: monospace;
+	margin-left: 95%;
+	margin-top: -10px;
+}
+/*#Logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 85%;
+	margin-bottom: 40px;
+	margin-top: 0%;
+	margin-right: 5%;
+	padding: auto;
+
+}
+
+#logo{
+	width: 90px;
+	height: 85px;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+}
+
+#Agritech{
+	
+	color: rgb(134, 73, 16);
+	margin-top: -10px;
+	margin-right: 0%;
+	position: relative;
+	
+}
+
+#home{
+	position: absolute;
+	display: inline-block;
+	position: absolute;
+	background-image:url("pics/home.jpg") ;
+	background-size:cover;            
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	
+}
+
+#titre{
+	position: relative;
+	margin-top: auto;
+}
+
+#tito{
+	color: hwb(119 23% 4% / 0.922);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	
+}
+
+
+#mssg{
+	color: white;
+	font-family: calc(background-image);
+}
+
+#menu{
+	background-color: rgb(69, 161, 7);
+	display: block;
+}
+
+#pic1{
+	width: 50px;
+	height: 50px;
+	
+}*/
+
