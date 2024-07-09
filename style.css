@@ -4,7 +4,14 @@
 	height: 600px;
 	background-size:cover;
 }
+@home{
+	form{
+		background-image:url("pics/mayis.jpg");
+	}
+	to {
 
+	}
+}
 header{
 	background-attachment: fixed;
 	height: 100px;
@@ -13,6 +20,7 @@ header{
 	display: flex;
 }
 #logo{
+	margin-left: 8px;
 	width: 50px;
 	height: 50px;
 
@@ -23,6 +31,7 @@ small{
 	font-size: small;
 	font-family: monospace;
 	margin-top: 40px;
+	margin-left: 5px;
 }
 
 h1{
@@ -117,9 +126,47 @@ h3{
 p{
 	font-family: "Kodchasan",serif;
 	font-size: 30px;
-
 }
 
 .browns{
 	color: #5D320F;
+}
+
+a{
+	color: #322004;
+
+}
+
+a:hover{
+	color: #7cdf20;
+}
+
+.exemples{
+	width: 100%;
+	height: auto;
+}
+
+.Mherbe{
+	size-adjust: ;
+	width: 100x;
+	height: 150px;
+	position: relative;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#ex1{
+	margin-left: 0%;
+	margin-right: ;
+	float: left;
+
+}
+
+#ex2{
+	margin-left: auto;
+}
+
+.size{
+	width: 90px;
+	height: 100px;
 }
