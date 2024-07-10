@@ -4,8 +4,15 @@
 
 <head>
 	<title>Agritech</title>
+	<meta name="keywords" content="HTML, CSS">
+	<meta name="author" content="Ibtissam Labibi">
+	<meta name="description" content="Basic Web page for Plants and some of their types">
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css"></style>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Kodchasan">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -13,21 +20,29 @@
 	<div class="home">
 
 		<header>
-			<img id="logo" src="pics/logo.png" alt="logo"/>
+			<a href="#infos">
+				<img id="logo" src="pics/logo.png" alt="logo"/>
+			</a>
 			<small>Agritech</small>
-			<!---<nav class="menu">
-				<ol>
-					<li>
-						<a>Home</a>
-					</li>
-					<li>
-						<a>Menu</a>
-					</li>
-					<li>
-						<a>Infos</a>
-					</li>
-				</ol>
-			</nav>-->
+			<div id="nav">
+				<a class="navbar" href="#Title">Home</a>
+				<a class="navbar" href="#menu">Menu</a>
+				<a class="navbar" href="#infos">Infos</a>
+				<div class="search">
+					<form action="#">
+						<input type="text"
+							placeholder="Recherche"
+							name="search">
+						<button>
+							<i class="fa fa-search"
+								style="font-size: 18px;">
+							</i>
+						</button>
+					</form>
+				</div>
+			</div>
+				
+		
 		</header> 
 
 		<div id="Title" >
@@ -37,7 +52,7 @@
 
 	</div>
 
-	<div class="menu">
+	<div class="menu" id="menu">
 
 		<div id="block1">
 			<img class="pics" src="pics/pic1.png" alt="">
@@ -79,7 +94,7 @@
 			<img class="pics" id="pic4" src="pics/pic4.png" alt="">
 			<ul class="Right">
 				<li>
-					<a>Les mauvaises herbes Vs les Adventices</a>
+					<a href="MauvVsAdv">Les mauvaises herbes Vs les Adventices</a>
 				</li>
 			</ul>
 		</div>
@@ -104,35 +119,37 @@
 			Parmis les mauvaises herbes qui existent souvent , on trouve:
 
 		</p>
-		<div class="exemples" id="ex1">
-			<img class="Mherbe" src="mauvaise herbe/esperge.jpg" alt="">
-			<h4>Espérge</h4>
-			<img class="Mherbe" src="mauvaise herbe/geranium.jpg" alt="">
-			<h4>Géranium</h4>
-			<img class="Mherbe" src="mauvaise herbe/herbe bennet.jpg" alt="">
-			<h4>Herbes Bennets</h4>
-			<img class="Mherbe" src="mauvaise herbe/liseron.jpg" alt="">
-			<h4>Liseron</h4>
-		</div>
-		<div class="exemples" id=""ex2>
-			<img class="Mherbe" src="mauvaise herbe/marguerite.jpg" alt="">
-			<h4>Marguerite</h4>
-			<img class="Mherbe" src="mauvaise herbe/oxalis.jpg" alt="">
-			<h4>Oxalis</h4>
-			<img class="Mherbe" src="mauvaise herbe/plantain.jpg" alt="">
-			<h4>Plantain</h4>
-			<img class="Mherbe" src="mauvaise herbe/Rene commune.jpg" alt="">
-			<h4>Renes communes</h4>
-		</div>
-		<div class="exemples" id="ex3">
-			<img class="Mherbe" src="mauvaise herbe/renoncule.jpg" alt="">
-			<h4>Renoncule</h4>
-			<img class="Mherbe" src="mauvaise herbe/rodsebery.jpg" alt="">
-			<h4>Rosebery</h4>
-			<img class="Mherbe" src="mauvaise herbe/sureau noir.jpg" alt="">
-			<h4>Sureau noir</h4>
-			<img class="Mherbe" src="mauvaise herbe/veronica.jpg" alt="">
-			<h4>Veroinica</h4>
+		<div id="images" >
+			<div class="exemples" id="ex1">
+				<img class="Mherbe" src="mauvaise herbe/esperge.jpg" alt="">
+				<h4>Espérge</h4>
+				<img class="Mherbe" src="mauvaise herbe/geranium.jpg" alt="">
+				<h4>Géranium</h4>
+				<img class="Mherbe" src="mauvaise herbe/herbe bennet.jpg" alt="">
+				<h4>Herbes Bennets</h4>
+				<img class="Mherbe" src="mauvaise herbe/liseron.jpg" alt="">
+				<h4>Liseron</h4>
+			</div>
+			<div class="exemples" id=""ex2>
+				<img class="Mherbe" src="mauvaise herbe/marguerite.jpg" alt="">
+				<h4>Marguerite</h4>
+				<img class="Mherbe" src="mauvaise herbe/oxalis.jpg" alt="">
+				<h4>Oxalis</h4>
+				<img class="Mherbe" src="mauvaise herbe/plantain.jpg" alt="">
+				<h4>Plantain</h4>
+				<img class="Mherbe" src="mauvaise herbe/Rene commune.jpg" alt="">
+				<h4>Renes communes</h4>
+			</div>
+			<div class="exemples" id="ex3">
+				<img class="Mherbe" src="mauvaise herbe/renoncule.jpg" alt="">
+				<h4>Renoncule</h4>
+				<img class="Mherbe" src="mauvaise herbe/rodsebery.jpg" alt="">
+				<h4>Rosebery</h4>
+				<img class="Mherbe" src="mauvaise herbe/sureau noir.jpg" alt="">
+				<h4>Sureau noir</h4>
+				<img class="Mherbe" src="mauvaise herbe/veronica.jpg" alt="">
+				<h4>Veroinica</h4>
+			</div>
 		</div>
 	</div>
 
@@ -192,7 +209,7 @@
 
 	</div>
 
-	<div>
+	<div id="MauvVsAdv">
 		<h3>Les Mauvaises herbes Vs Les Adventices</h3>
 		<p>
 			Pour l’agriculteur ou l’horticulteur, les adventices désignent les plantes qui poussent sans y avoir été invitées dans les zones que l’humain veut dominer, comme les champs, les trottoirs ou les pots de fleurs. 
