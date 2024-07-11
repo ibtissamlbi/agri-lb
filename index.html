@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css"></style>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Kodchasan">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Kodchasan|Merriweather">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -19,7 +19,7 @@
 
 	<div class="home">
 
-		<header>
+		<header id="head">
 			<a href="#infos">
 				<img id="logo" src="pics/logo.png" alt="logo"/>
 			</a>
@@ -28,31 +28,19 @@
 				<a class="navbar" href="#Title">Home</a>
 				<a class="navbar" href="#menu">Menu</a>
 				<a class="navbar" href="#infos">Infos</a>
-				<div class="search">
-					<form action="#">
-						<input type="text"
-							placeholder="Recherche"
-							name="search">
-						<button>
-							<i class="fa fa-search"
-								style="font-size: 18px;">
-							</i>
-						</button>
-					</form>
-				</div>
 			</div>
 				
 		
 		</header> 
 
 		<div id="Title" >
-			<h1>Les Mauvaises herbes <br> & Les Adventices</h1>
+			<h1>Le Monde <br> des Herbes</h1>
 			<h2>" Tout savoir sur le monde des herbes "</h2>
 		</div>
 
 	</div>
 
-	<div class="menu" id="menu">
+	<div  id="menu">
 
 		<div id="block1">
 			<img class="pics" src="pics/pic1.png" alt="">
@@ -89,16 +77,6 @@
 				</li>
 			</ul>
 		</div>
-
-		<div id="block4">
-			<img class="pics" id="pic4" src="pics/pic4.png" alt="">
-			<ul class="Right">
-				<li>
-					<a href="MauvVsAdv">Les mauvaises herbes Vs les Adventices</a>
-				</li>
-			</ul>
-		</div>
-
 	</div>
 
 	<div id="herbes">
@@ -106,132 +84,108 @@
 		<p>
 			Une herbe c’est toute plante anuelle , non ligneuse ou vivace qui perd ses fleurs chaque hiver .
 			<br>
-			Voici quelques exemples des herbes:
+			<i> Voici quelques exemples des herbes: </i>
 		</p>
 		<img id="herbe" src="pics/herbe.jpg" alt="">
 	</div>
 
-	<div class="menu" id="mauvHerbe">
+	<div id="mauvHerbe">
 		<h3 class="browns">Qu’est ce qu’une mauvaise herbe ?</h3>
 		<p>
 			Une mauvaise herbe est une plante envahissant les cultures et les prairies. Elle concurrence les plantes cultivées et cause un préjudice économique à l’agriculteur, qui contre cela, s’emploie à les détruire.
 			<br>
 			Parmis les mauvaises herbes qui existent souvent , on trouve:
-
 		</p>
-		<div id="images" >
-			<div class="exemples" id="ex1">
-				<img class="Mherbe" src="mauvaise herbe/esperge.jpg" alt="">
-				<h4>Espérge</h4>
-				<img class="Mherbe" src="mauvaise herbe/geranium.jpg" alt="">
-				<h4>Géranium</h4>
-				<img class="Mherbe" src="mauvaise herbe/herbe bennet.jpg" alt="">
-				<h4>Herbes Bennets</h4>
-				<img class="Mherbe" src="mauvaise herbe/liseron.jpg" alt="">
-				<h4>Liseron</h4>
+		<div id="exs">
+			<div class="images" >
+				<div class="ex1">
+					<img class="Mherbe" src="mauvaise herbe/esperge.jpg" alt="">
+					<div class="nom">
+						<h4>Espérge</h4>
+					</div>
+				</div>
 			</div>
-			<div class="exemples" id=""ex2>
-				<img class="Mherbe" src="mauvaise herbe/marguerite.jpg" alt="">
-				<h4>Marguerite</h4>
-				<img class="Mherbe" src="mauvaise herbe/oxalis.jpg" alt="">
-				<h4>Oxalis</h4>
-				<img class="Mherbe" src="mauvaise herbe/plantain.jpg" alt="">
-				<h4>Plantain</h4>
-				<img class="Mherbe" src="mauvaise herbe/Rene commune.jpg" alt="">
-				<h4>Renes communes</h4>
+			<div class="images">
+				<div class="ex1">
+					<img class="Mherbe" src="mauvaise herbe/geranium.jpg" alt="">
+					<div class="nom">
+						<h4>Géranium</h4>
+					</div>
+				</div>
 			</div>
-			<div class="exemples" id="ex3">
-				<img class="Mherbe" src="mauvaise herbe/renoncule.jpg" alt="">
-				<h4>Renoncule</h4>
-				<img class="Mherbe" src="mauvaise herbe/rodsebery.jpg" alt="">
-				<h4>Rosebery</h4>
-				<img class="Mherbe" src="mauvaise herbe/sureau noir.jpg" alt="">
-				<h4>Sureau noir</h4>
-				<img class="Mherbe" src="mauvaise herbe/veronica.jpg" alt="">
-				<h4>Veroinica</h4>
+			<div class="images">
+				<div class="ex1">
+					<img class="Mherbe" src="mauvaise herbe/herbe bennet.jpg" alt="">
+					<div id="bennet">
+						<h4>Herbes Bennets</h4>
+					</div>
+				</div>
+			</div>
+			<div class="images">
+				<div class="ex1">
+					<img class="Mherbe" src="mauvaise herbe/liseron.jpg" alt="">
+					<div class="nom">
+						<h4>Liseron</h4>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+	</div>	
 
 	<div id="mono">
 		<h3 class="greens">Les herbes Monocotylédones</h3>
-		<img class="size" src="monocotyledone/mono1.jpg" alt="">
 		<p>
-			Les monocotylédones sont l’une des deux classes de plantes à fleurs (Angiospermes).
-			Ils sont dérivées phylogénétiquement d’une branche éteinte de Ranales.
-			<br>
-		</p>
-		<img class="size" src="monocotyledone/mono2.jpg" alt="">
-		<p>
-			Ce sont presque toujours des plantes herbacées et bien connues en font partie, comme les lys, les orchidées, les graminées (blé, maïs) et les palmiers, entre autres.
-		</p>
-		<img class="size" src="monocotyledone/mono3.jpg" alt="">
-		<p>
+			Les monocotylédones sont l’une des deux classes de plantes à fleurs.
 			Ils se caractérisent par la présentation d’un seul cotylédon dans l’embryon, les organes floraux par groupes de trois, les feuilles généralement à nervures parallèles et les tiges avec des faisceaux vasculaires rares et l’absence de cambium.
-		</p>
-		<img class="size" src="monocotyledone/mono4.jpg" alt="">
-		<p>
 			Un cotylédon est une structure en forme de feuille trouvée dans la graine , c’est une feuille embryonnaire.
 		</p>
+		<div id="etape">
+			<p>Voici un résumé sur les caractéristiques principaux d'une herbe monocotylédone:</p>
+			<img src="pics/monoco.png">
+		</div>
 	</div>
 
 	<div id="dico">
-		<h3 class="browns">Les herbes Monocotylédones</h3>
-		<img class="size" src="dicotyledone/dico1.jpg" alt="">*
+		<h3 class="browns">Les herbes Dicotylédones</h3>
 		<p>
-			Une herbe dicotylédone est une mauvaise herbe qui ne fait pas partie de la famille des graminées. 
+			Une herbe dicotylédone est une herbe qui ne fait pas partie de la famille des graminées. 
 			Elles ont des feuilles veinées ou lobées semblables à une plante de jardin.
+			Elles ont une plantule à deux cotylédons,feuilles ont des nervures réticulées, et les stomates sont généralement orientés aléatoirement sur la partie inférieure du limbe.
+			Voici un résumé sur les caractéristiques principaux des herbes dicotyléddones:
 		</p>
-		<img class="size" src="dicotyledone/dico2.jpg" alt="">
-		<p>
-			Les mauvaises herbes dicotylédones matures produisent des fleurs qui deviennent plus tard des têtes de graines. Les pissenlits et les trèfles sont des exemples courants de mauvaises herbes à fleurs.
-		</p>
-		<img class="size" src="dicotyledone/dico3.jpg" alt="">
-		<p>
-			Elles produisent un grand nombre de graines. Ces graines sont généralement conçues pour être transportées sur de longues distances par le vent.
-		</p>
-		<img class="size" src="dicotyledone/dico4.webp" alt="">
-		<p>
-			Elles varient dans leur cycle de vie. Certaines mauvaises herbes dicotylédones ne vivent qu’un ou deux ans, tandis que d’autres ont une durée de vie beaucoup plus longue.
-		</p>
+		<div id="dicoty">
+			<img src="pics/dico.png" alt="">
+		</div>
 	</div>
 
 	<div id="MonoVsDico">
 		<h3 class="greens">Les Monocotylédones Vs Les Dicotylédones</h3>
+		<video width="100%" height="500px" controls loop autoplay poster="pics/mayis.jpg">
+			<source src="pics/Mono Vs Dico.mp4" type="video/mp4">
 
+		</video>
 	</div>
 
 	<div id="Adv">
 		<h3 class="browns">Les Adventices</h3>
 		<p>
-			Les adventices, souvent appelées "mauvaises herbes", sont des plantes jugées indésirables. Cette flore n'est pas semée intentionnellement. Elle pousse spontanément dans les champs, les jardins, ou les espaces verts et joue un rôle important dans le bon fonctionnement de l'écosystème.
+			L'adventice c'est toute plante qui existe dans un champs où elle n'appartient pas.Par exemple Le tournesol cultivé dans un champs de Maïs.
+			<span>L'dventice peut être une mauvaise herbe mais on peut pas dire que toute mauvaise herbe c'est une adventice.</span>
 		</p>
 
 	</div>
 
-	<div id="MauvVsAdv">
-		<h3>Les Mauvaises herbes Vs Les Adventices</h3>
+	<footer id="infos">
 		<p>
-			Pour l’agriculteur ou l’horticulteur, les adventices désignent les plantes qui poussent sans y avoir été invitées dans les zones que l’humain veut dominer, comme les champs, les trottoirs ou les pots de fleurs. 
+			contacter nous:
+			<br>
+			email: ibtissamlabibi2000@gmail.com
+			© Copyright
+			Safi 2024
 		</p>
-		<p>
-			Pour le botaniste, les adventices désignent les plantes exotiques à un territoire ou à un milieu et qui y pousse sporadiquement. Ce dernier donne à « mauvaise herbe » la définition de l’adventice de l’agriculteur.
-		</p>
-		<p>
-			En agriculture, on considère les adventices le plus souvent avec la connotation qu’on donne aux mauvaises herbes, nuisibles à la plante que l’on cultive.
-		</p>
-		<p>
-			Le botaniste pourra trouver, parmi les adventices ou les mauvaises herbes, quelques plantes rares et inféodées aux cultures. 
-		</p>
-		<p>
-			Les adventices des moissons se concentrent dans les quels frêles îlots des coins biscornus des champs où le bras de traitement des machines ne parvient pas à répandre sa bile.
-		</p>
-	</div>
-
-	<footer>
-			
 	</footer>
 
 </body>
 
 </html>
+
